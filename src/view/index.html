@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+  @@include('./common/header.html', {
+    "info": "你好"
+  })
+  <div id="tab">
+    <input type="button" value="苹果">
+    <input type="button" value="橘子">
+    <input type="button" value="草莓">
+    <div>apple</div>
+    <div>orange</div>
+    <div>strawberry</div>
+  </div>
+  <div>测试Gulp</div>
+  <div id="info">添加内容</div>
+  <input type="button" value="点击" id="btn">
+  @@include('./common/footer.html')
+  <script type="text/javascript" src="js/tab.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
